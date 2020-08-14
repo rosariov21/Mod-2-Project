@@ -3,51 +3,33 @@ import axios from 'axios';
 import { render } from "@testing-library/react";
 export default class BeerFetch extends Component{
     state = {
-        BeerOne:[],
+        breweries:[],
         isloading:true
     };
 
 
     componentDidMount(){
-        let One = 'https://api.punkapi.com/v2/beers'
-    //add cors to upload becasue of my server it might not render so lets add this just in case 
+        axios.get(`https://api.openbrewerydb.org/breweries`)
+        .then(res => {
+          const breweries = res.data;
+        this.setState({ breweries:breweries,
+        isloading:false });
+        })
+    }
     
     
-    // let cors = 'https://cors-anywhere.herokuapp.com/'
-    
-    let cors = ""
-    const invokeOne = axios.get(cors + One);
-    
-    axios.all([invokeOne])
-    .then(axios.spread((...responses) => {
-        const BeerOne = responses[0].data.beers;
-    
-    this.setState({isloading:false,invokeOne});
-    console.log(responses)
-    
-    }))
-    
-    .catch((errors =>{
-        console.error(console.errors);
-    
-    })
-    )};
     
     render(){
-        let responses ;
-        if (!this.state.isloading){
-            responses = (<div>
-                <h1>BEER-CONTACT:{this.state.invokeOne}</h1>
-            </div>
-    
-        )
-        }
+       console.log(this.state.breweries)
     
         
         return(
-            <div>
-                {responses}
-            </div>
+            <ul>
+        { this.state.breweries.map(brew => <li key={brew.id}>{brew.name}</li>)}
+        
+
+
+      </ul>
        );
     }
     } 
