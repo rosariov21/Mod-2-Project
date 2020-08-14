@@ -26,12 +26,10 @@ export default class BeerFetch extends Component{
     
         
         return(
-            <ul>
-        { this.state.breweries.map(brew => <li key={brew.id}>{brew.name}</li>)}
+            <ol>
+        { this.state.breweries.map(brew => <li key={brew.id}><br/>{brew.name}</li>)}
         
-
-
-      </ul>
+        </ol>
        );
     }
     } 
