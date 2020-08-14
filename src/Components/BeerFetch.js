@@ -19,6 +19,8 @@ export default class BeerFetch extends Component{
     
     
     
+    
+    
     render(){
        console.log(this.state.breweries)
     
