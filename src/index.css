@@ -10,13 +10,20 @@ code {
     monospace;
 }
 ol{
-  height: 500px;
+  /* height: 500px;
   width: 600px;
   border: solid lawngreen;
-  margin-top: auto;
+  margin-top: auto; */
   padding: 25px;
-  align-items: center;
+  /* flex: display;
+  display: inline; */
 
+}
+ol{
+  height: 400px;
+  width:800px;
+  border: solid lawngreen;
+  
 }
 
 p{
