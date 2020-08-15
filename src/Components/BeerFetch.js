@@ -7,8 +7,9 @@ export default class BeerFetch extends Component{
         this.state ={
             beers: '',
             beersList:'',
-            food_paring:''
-            
+            food_paring:'',
+            tagline:''
+
         }
     }
 
@@ -27,12 +28,18 @@ export default class BeerFetch extends Component{
     
     let beerList = response.data.map(beer =>
         <div key={beer['id']}>
-
-        <ul>
-            <h1>Name: {beer["name"]}</h1>
+         
+         <div>
+         <p>Drink Responsibly</p>
+         </div>
+        <ol>
+            
+            <h1 className='name'>Name: {beer["name"]}</h1>
                    <br/>
-            <h1>Best food to go with this beer : {beer["food_pairing"]}</h1>
-        </ul>
+            <h1 className='food'>Best food to go with this beer : {beer["food_pairing"]}</h1>
+            <br/>
+            <h2 className='slogan'>Slogan for the beer: {beer["tagline"]}</h2>
+        </ol>
 
 
         </div>);
