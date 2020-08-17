@@ -46,7 +46,7 @@ export default class BeerFetch extends Component{
             <h5>Information aboout the beer:{beer["description"]}</h5>
             
             <li>
-            <img  className="BeerImg" src={"data.food_pairing.image_url"} alt="not available"/>
+            <img  className="BeerImg" src="data.food_pairing.image_url" alt="not available"/>
             </li>
         </ol>
 
