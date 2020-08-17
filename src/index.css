@@ -23,7 +23,7 @@ ol{
   height: 500px;
   width:800px;
   border: solid lawngreen;
-  
+
 }
 
 p{
@@ -35,4 +35,14 @@ p{
 li{
   display: inline;
   margin: 20px;
+}
+
+button:hover{
+  background-color: steelblue;
+  font-size: 30px;
+  
+}
+
+button{
+  background-color: steelblue;
 }
