@@ -58,3 +58,8 @@ ul{
 .searchBox{
   font-size: 30px;
 }
+
+BeerImg{
+  height: 5px;
+  width: 45px;
+}
