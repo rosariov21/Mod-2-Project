@@ -9,7 +9,9 @@ export default class BeerFetch extends Component{
             beersList:'',
             food_paring:'',
             tagline:'',
-            description:''
+            description:'',
+            image_url: ''
+
 
         }
     }
@@ -42,6 +44,7 @@ export default class BeerFetch extends Component{
             <h2 className='slogan'>Slogan for the beer: {beer["tagline"]}</h2>
                      <br/>
             <h5>Information aboout the beer:{beer["description"]}</h5>
+            <img src={["image_url"]}/>
         </ol>
 
 
