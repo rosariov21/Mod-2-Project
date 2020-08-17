@@ -2,7 +2,9 @@ body {
   margin: 0;
 background-color: salmon;
 font-style: italic;
-
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSlUrlI4RrT1gEBE_46SPpMJp65gyweyZKSNg&usqp=CAU");
+opacity: 20px;
+background-image: "transparent";
 }
 
 code {
