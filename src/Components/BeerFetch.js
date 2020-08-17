@@ -67,9 +67,21 @@ export default class BeerFetch extends Component{
     
         
         return(
+            <div className="parentBoxContainer">
+      <div className="boxContainer">
+     <input className="searchBox"  type="text" placeholder="Search Beer" value={this.state.value}/>
+ <button type="submit">Get Beers Information</button>
+        </div>
+
+
+
+
+
             <div>
+
         { this.state.beersList}
         
+        </div>
         </div>
        );
     }
