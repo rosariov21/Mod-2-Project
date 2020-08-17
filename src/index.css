@@ -38,13 +38,16 @@ li{
 }
 
 button:hover{
-  background-color: steelblue;
+  background-color: grey;
   font-size: 30px;
+  border-radius: 360px;
   
 }
 
 button{
   background-color: steelblue;
+  color: blanchedalmond;
+  border-radius: 360px;
 }
 ul{
   border: solid 10px navajowhite;
