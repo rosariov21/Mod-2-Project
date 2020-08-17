@@ -13,13 +13,15 @@ export default class FrontPage extends Component {
                 
 
                <div className='someIntroduction'>
-                
-                   <h2>
+              
+               <p>Are you ready to locate the perfect beer?</p>
+                   <h4>
                      The objective of this page is to help create all my  beer lovers become  more enthused about BEER! 
                      its  designed to help you easily find beers so you can either showoff
-                       to your friends or just for those who are curious about the true art about beer . Relax and have a cold one .
-                   </h2>
-                   <p>Are you ready to locate the perfect beer?</p>
+                       to your friends or just for those who are curious about the true art about beer . 
+                   </h4>
+                   <h1>Now please , Relax and have a cold one .</h1>
+        
                    <NavLink className="button" to="/BeerFetch">Search Beers</NavLink>
                </div>
                 
