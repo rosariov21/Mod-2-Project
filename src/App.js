@@ -6,7 +6,26 @@ import BeerFetch from './Components/BeerFetch';
 function App() {
   return (
     <div className="App">
-     <BeerFetch/>
+
+      <Router>
+        <div>
+          <nav>
+            <ul>
+              <li>
+              <link className='navBar' to = "/home">Main Menu</link>
+              </li>
+              <li>
+
+              </li>
+              
+
+            </ul>
+          </nav>
+        </div>
+
+
+      </Router>
+  
     </div>
   );
 }
