@@ -48,8 +48,13 @@ button{
   background-color: steelblue;
   color: blanchedalmond;
   border-radius: 360px;
+  font-size: 30px;
 }
 ul{
   border: solid 10px navajowhite;
   padding: 20px;
+}
+
+.searchBox{
+  font-size: 30px;
 }
