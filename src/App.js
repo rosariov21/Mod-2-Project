@@ -32,7 +32,7 @@ function App() {
         <switch>
 
         
- <Route path="/FrontPage" component={FrontPage} />
+ <Route  exact path="/FrontPage" component={FrontPage} />
             <Route path="/BeerFetch" component={BeerFetch} />
             <Route path ="/SignUp" component={SignUp}/>
             </switch>
