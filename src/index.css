@@ -19,10 +19,14 @@ ol{
   display: inline; */
 
 }
+.center{
+  align-content: center;
+}
 ol{
   height: max-content;
   width:800px;
   border: solid black;
+  margin: auto;
 
 }
 

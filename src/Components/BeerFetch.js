@@ -32,7 +32,7 @@ export default class BeerFetch extends Component{
                  <div>
                  <p>Drink Responsibly</p>
                  </div>
-                <ol>
+                <ol className="center">
                 { /*<h1 className='name'>Name: {beer["name"]}</h1> */}
                 <li>
                     <img  className="BeerImg" src={beer.image_url} alt="Beer Type"/>
