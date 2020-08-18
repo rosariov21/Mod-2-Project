@@ -32,7 +32,7 @@ class SignUp extends React.Component{
         this.state ={
             email: "",
             password: "",
-            Age: "",
+            age: "",
         }
         this.handleSubmit=this.handleSubmit.bind(this)
     }
@@ -45,5 +45,10 @@ class SignUp extends React.Component{
     passwordhandler =(event) =>{
         this.setState({
             password: event.target.value
+        })
+    }
+   agehandler =(event) =>{
+        this.setState({
+            age:event.target.value
         })
     }
