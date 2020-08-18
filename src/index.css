@@ -20,9 +20,9 @@ ol{
 
 }
 ol{
-  height: 500px;
+  height: max-content;
   width:800px;
-  border: solid lawngreen;
+  border: solid black;
 
 }
 
@@ -60,6 +60,6 @@ ul{
 }
 
 BeerImg{
-  height: 5px;
+  height: min-content;
   width: 45px;
 }
