@@ -41,3 +41,9 @@ class SignUp extends React.Component{
             email:event.target.value
         })
 
+    }
+    passwordhandler =(event) =>{
+        this.setState({
+            password: event.target.value
+        })
+    }
