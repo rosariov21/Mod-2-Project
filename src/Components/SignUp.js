@@ -75,7 +75,7 @@ class SignUp extends React.Component{
                        
                       
          
-                <h1>Register Now </h1>
+                <h1>Register Now To Get All The Beer Information</h1>
                 <form onSubmit={this.handleSubmit}>
                     
                 <input placeholder='email' type='text' value={this.state.email} onChange={this.emailhandler} />
