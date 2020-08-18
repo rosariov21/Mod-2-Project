@@ -118,7 +118,7 @@ handleUserInput(e){
 // includes (part of description)
 // value={this.state.userInput}
 // having trouble creating case sensitve method
-//
+//use LowerCase to include a lower case input so user can actually type with upper or lowercase
 
     render(){
        console.log(this.state.beers)
