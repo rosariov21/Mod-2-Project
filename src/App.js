@@ -37,8 +37,10 @@ function App() {
             <Route path ="/SignUp" component={SignUp}/>
             </switch>
       </Router>
+    
   
     </div>
+    //create the routing path to render
   );
 }
 
