@@ -76,3 +76,10 @@ class SignUp extends React.Component{
                     <br/>
                     <input placeholder='Age' type='text'value={this.state.age} onChange={this.agehandler}/>
                     <br/>
+                    <input type="submit" value="Submit"/>
+                </form>
+            </div>
+        )
+    }
+}
+export default SignUp;
