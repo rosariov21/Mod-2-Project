@@ -66,6 +66,12 @@ class SignUp extends React.Component{
     }
     render(){
         return(
+
+            <div className="signUpParent">
+                
+                   <div className='sign-Up-Description-Parent'>
+                       <h2 className="sign-Up-Description">Came to the right page, lets get you started for our weekly Beer Info?</h2>
+                       <p className="sign-Up-Description">Sign up for more information about our Beers </p>                  </div></div>
             <div>
                 <h1>Register Now </h1>
                 <form onSubmit={this.handleSubmit}>
