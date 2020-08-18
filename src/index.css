@@ -63,3 +63,13 @@ BeerImg{
   height: min-content;
   width: 45px;
 }
+
+buttonForSignUp{
+  
+  background-color: cornflowerblue;
+  border-radius: 360px;
+  
+}
+input{
+  font-size: 40px;
+}
