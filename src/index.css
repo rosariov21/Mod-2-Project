@@ -107,5 +107,7 @@ h1{
   font-size: 20px;
 }
 .signUpParent{
-  
+  border: solid cornflowerblue;
+  height: 100px;
+
 }
