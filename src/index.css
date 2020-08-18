@@ -77,3 +77,7 @@ input{
 .sign-Up-Description{
   color: blanchedalmond;
 }
+.buttonForSignUp{
+  border-radius: 360px;
+  font-size: 45;
+}
