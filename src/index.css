@@ -37,6 +37,7 @@ li{
   margin: 20px;
 }
 
+
 button:hover{
   background-color: grey;
   font-size: 30px;
@@ -85,6 +86,9 @@ input{
 .navBar{
  font-size: 35px;
  color: brown;
+}
+.navBar:hover{
+  color: antiquewhite;
 }
 p{
   color: antiquewhite;
