@@ -19,14 +19,13 @@ ol{
   display: inline; */
 
 }
-.center{
-  align-content: center;
-}
+
 ol{
   height: max-content;
   width:800px;
   border: solid black;
   margin: auto;
+  padding: 25px;
 
 }
 
@@ -60,6 +59,7 @@ button{
 ul{
   border: solid 10px navajowhite;
   padding: 20px;
+  box-shadow: 0 0 105px;
 }
 
 .searchBox{
@@ -133,4 +133,8 @@ form{
   font-weight: 100px;
   border-width: 55px;
   box-shadow:  0 0 50px ;
+}
+
+.bigParent{
+  box-shadow: 0 0 15px ;
 }

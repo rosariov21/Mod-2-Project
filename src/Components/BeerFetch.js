@@ -27,7 +27,7 @@ export default class BeerFetch extends Component{
     mapbeerList(bList){
         return(
             bList.map(beer =>
-                <div key={beer['id']}>
+                <div className="bigParent" key={beer['id']}>
                  
                  <div>
                  <p>Drink Responsibly</p>
