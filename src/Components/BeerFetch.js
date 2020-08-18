@@ -51,6 +51,7 @@ export default class BeerFetch extends Component{
         
         
                 </div>))
+                // this is the part where you invoke the data by using the actual name from data
         
 
     }
