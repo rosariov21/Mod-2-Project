@@ -44,7 +44,7 @@ export default class BeerFetch extends Component{
                            <br/>
                     <h2 className='slogan'>Slogan for the beer: {beer.tagline}</h2>
                              <br/>
-                    <h5>Information aboout the beer:{beer.description}</h5>
+                    <h5 className="description">Information aboout the beer:{beer.description}</h5>
                     
                     
                 </ol>
