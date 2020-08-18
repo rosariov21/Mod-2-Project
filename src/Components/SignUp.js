@@ -77,14 +77,16 @@ class SignUp extends React.Component{
          
                 <h1>Register Now </h1>
                 <form onSubmit={this.handleSubmit}>
+                    
                 <input placeholder='email' type='text' value={this.state.email} onChange={this.emailhandler} />
-                    <br/>
+                   <br/>
                     <input placeholder='Password:' id='submit' type='password' value={this.state.password} onChange={this.passwordhandler}/>
-                    <br/>
+                    
                     <br/>
                     <input placeholder='Age' type='text'value={this.state.age} onChange={this.agehandler}/>
                     <br/>
                     <input type="submit" value="Submit"/>
+                    
                 </form>
             </div>
         )
