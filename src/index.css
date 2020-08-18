@@ -114,4 +114,6 @@ h1{
 
 form{
   border: solid cornflowerblue;
+  width: 600px;
+  height: 300px;
 }
