@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 //its main obejective is to get information
 
 
-export default class FrontPage extends Component {
-    render() {
+ const FrontPage = () => {
+    
         return (
             <div className="frontPageParent">
                
@@ -27,5 +27,7 @@ export default class FrontPage extends Component {
                 
             </div>
         )
-    }
+    
 }
+
+export default FrontPage;

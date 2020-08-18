@@ -138,3 +138,20 @@ form{
 .bigParent{
   box-shadow: 0 0 15px ;
 }
+.Footer{
+  background-color:burlywood;
+}
+
+.footerParent{
+
+width: 1000px;
+height: 300px;
+margin: auto;
+border: seashell;
+
+
+}
+.InstructionsParent ol{
+  display: flex;
+  flex-direction: column;
+}
