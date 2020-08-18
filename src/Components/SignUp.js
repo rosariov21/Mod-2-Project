@@ -6,7 +6,7 @@ export default class SignUp extends Component {
             <div className="signUpParent">
                 
                     <div className='sign-Up-Description-Parent'>
-                        <h2 className="sign-Up-Description">Came to the right page, lets get you to sign up for our weekly Beer Info?</h2>
+                        <h2 className="sign-Up-Description">Came to the right page, lets get you started for our weekly Beer Info?</h2>
                         <p className="sign-Up-Description">Sign up for more information about our Beers </p>
                     </div>
                     <div className="footer-newsletter-elements">
