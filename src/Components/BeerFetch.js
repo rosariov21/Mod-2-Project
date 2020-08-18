@@ -117,6 +117,8 @@ handleUserInput(e){
 //creating a conditional 
 // includes (part of description)
 // value={this.state.userInput}
+// having trouble creating case sensitve method
+//
 
     render(){
        console.log(this.state.beers)
