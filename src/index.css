@@ -71,8 +71,9 @@ buttonForSignUp{
   
 }
 input{
-  font-size: 40px;
+  font-size: ;
 }
-sign-Up-Description{
-  
+
+.sign-Up-Description{
+  color: blanchedalmond;
 }
