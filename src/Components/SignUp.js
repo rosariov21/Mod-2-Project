@@ -13,6 +13,10 @@ export default class SignUp extends Component {
                         <input className="input" type="text" placeholder="email"></input>
                         <button className="buttonForSignUp" type="submit">Submit</button>
                     </div>
+                    <div>
+                    <input placeholder="Full name" type='text' />
+                    <button className="buttonForSignUp" type="submit">Submit</button>
+                    </div>
                 </div>
                 
            
