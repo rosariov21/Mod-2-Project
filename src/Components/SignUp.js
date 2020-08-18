@@ -33,5 +33,11 @@ class SignUp extends React.Component{
             email: "",
             password: "",
             Age: "",
-        
+        }
+        this.handleSubmit=this.handleSubmit.bind(this)
+    }
+    emailhandler = (event) => {
+        this.setState({
+            email:event.target.value
+        })
 
