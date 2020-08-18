@@ -73,3 +73,4 @@ class SignUp extends React.Component{
                     <br/>
                     <input placeholder='Password:' id='submit' type='password' value={this.state.password} onChange={this.passwordhandler}/>
                     <br/>
+                    <input placeholder='Age:' id='submit' type='text' value={this.state.age} onChange={this.agehandler}/>
