@@ -89,6 +89,7 @@ input{
  font-size: 35px;
  color: brown;
  padding: 20px;
+ text-decoration: none;
 }
 .navBar:hover{
   color: antiquewhite;
