@@ -52,3 +52,20 @@ class SignUp extends React.Component{
             age:event.target.value
         })
     }
+    handleSubmit =(event) =>{
+        alert(`${this.state.email} ${this.state.password} ${this.state.age}`)
+        console.log(this.state);
+        this.setState({
+            email: "",
+            password: "",
+           age: "",
+       
+
+        })
+        event.preventDefault()
+    }
+    render(){
+        return(
+            <div>
+                <h1>Register Now </h1>
+                <form onSubmit={this.handleSubmit}>
