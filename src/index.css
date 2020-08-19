@@ -2,7 +2,7 @@ body {
   margin: 0;
 
 font-style: italic;
-background-color: sandybrown;
+background-color: beige;
 }
 
 code {
@@ -14,7 +14,7 @@ ol{
   width: 600px;
   border: solid lawngreen;
   margin-top: auto; */
-  padding: 25px;
+  /* padding: 25px; */
   /* flex: display;
   display: inline; */
 
@@ -84,7 +84,7 @@ input{
 }
 
 .sign-Up-Description{
-  color: blanchedalmond;
+  color:brown;
 }
 .buttonForSignUp{
   border-radius: 360px;
@@ -99,22 +99,22 @@ input{
  text-decoration: none;
 }
 .navBar:hover{
-  color: antiquewhite;
+  color: brown;
 }
 p{
-  color: antiquewhite;
+  color: brown;
 }
 h4{
-  color: antiquewhite;
+  color: brown;
 }
 h1{
-  color: antiquewhite;
+  color: brown;
 }
 .slogan{
-  color: antiquewhite;
+  color: brown;
 }
 .description{
-  color: antiquewhite;
+  color: brown;
   font-size: 20px;
 }
 /* .signUpParent{
@@ -144,8 +144,8 @@ form{
 
 .footerParent{
 
-width: 1000px;
-height: 300px;
+width: max;
+height: max;
 margin: auto;
 border: seashell;
 
