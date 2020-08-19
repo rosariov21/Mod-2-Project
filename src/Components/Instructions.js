@@ -7,7 +7,7 @@ const Instructions = () => {
 
             <ol>
                 <li>
-                    1.Main menue is the welcome page to let you know what its about
+                    1.Main menu is the welcome page to let you know what its about
                     </li>
 
                     <li>
